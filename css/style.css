@@ -1,0 +1,266 @@
+/* all common css start  */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+a,
+a:hover{
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8px;
+}
+ul,
+ol{
+    list-style-type: none;
+}
+/* all common css end */
+
+/* header part start */
+.navbar{
+    background: #121212;
+}
+.nav-link{
+    color: #959595;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 3%;
+    padding: 0 30px !important;
+}
+.nav-link:hover{
+    color: #FD6F00;
+    transition: .6s;
+}
+.hireBtn{
+    padding: 5px 40px;
+    background: #FD6F00;
+    color: white;
+    border: 2px solid #FD6F00 !important;
+    border-radius: 10px;
+    transition: .5s;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 3%;
+    outline: none;
+}
+.hireBtn:hover{
+    background: transparent;
+    border: 2px solid #959595;
+    color: #FD6F00;
+}
+/* header part end */
+
+/* banner part start */
+#bannerPart{
+    background: #121212;
+    padding-top: 160px;
+    padding-bottom: 200px;
+}
+.bannerText h4{
+    font-size: 24px;
+    font-weight: 600;
+    color: #707070;
+    line-height: 29px;
+    padding-bottom: 10px;
+}
+.bannerText h3{
+    font-size: 28px;
+    font-weight: 700;
+    color: #959595;
+    line-height: 34px;
+}
+.bannerText h1{
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 84px;
+    background: linear-gradient(90deg, #984300 0%, #FD6F00 46%, #CA5900 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; /* Standard syntax (Firefox support) */
+  color: transparent;    /* Fallback */
+
+    padding: 20px 0;
+}
+.bannerSocial i{
+    font-size: 24px;
+    color: #BABABA;
+    border: 1px solid #BABABA;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 12px 0;
+    margin-right: 20px;
+}
+.bannerSocial i:hover{
+    color: #FD6F00;
+    border: 1px solid #FD6F00;
+    border-radius: 50%;
+    transition: .4s;
+}
+.bannerButton{
+    padding-top: 40px;
+    display: flex;
+    column-gap: 30px;
+}
+.bannerButton a{
+    background: #FD6F00;
+    padding: 10px 40px;
+    border-radius: 8px;
+    border: 2px solid #FD6F00;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+.bannerButton a:hover{
+    border: 2px solid #959595;
+    background: transparent;
+    color: #959595;
+    transition: .4s;
+}
+.bannerAchieve{
+    padding-top: 90px;
+}
+.achieveItem{
+    border-right: 1px solid #959595;
+    padding: 10px;
+}
+.achieveItem h2{
+    color: #FD6F00;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 24px;
+    padding-bottom: 15px;
+}
+.achieveItem h3{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #DFDFDF;
+}
+.noBorder{
+    border: none;
+}
+.abc{
+    background: rgb(28,27,27);
+    padding: 20px 0;
+    border-radius: 10px;
+}
+.bannerImg{
+    position: relative;
+}
+.bannerImg img{
+    position: absolute;
+    top: -122px;
+    left: 50px
+}
+/* banner part end */
+
+/* service part start  */
+#servicePart{
+    padding:20px 0;
+    background: #121212;
+    
+}
+.serviceHead h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.serviceHead p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #707070;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+.serviceItem{
+    text-align: center;
+    background: #1b1b1b;
+    border-radius: 24px;
+    padding: 30px;
+    margin-top: 30px;
+}
+.serviceItem:hover{
+    box-shadow: 0 0 20px 5px rgba(253, 110, 0, 0.4);
+    transition: .4s;
+}
+.serviceItem p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 160%;
+    color: #575757;
+    padding: 20px 38px;
+}
+/* service part end */
+
+/*  part start */
+/*  part end */
+
+/* header part start */
+/* header part end */
+
+/* header part start */
+/* header part end */
+
+/* header part start */
+/* header part end */
+
+/* header part start */
+/* header part end */
+
+/* header part start */
+/* header part end */
+
+/* header part start */
+/* header part end */
+
+/* header part start */
+/* header part end */
+
+/* header part start */
+/* header part end */
+
+/* header part start */
+/* header part end */
+
+/* header part start */
+/* header part end */
+
+/* header part start */
+/* header part end */
+
+/* header part start */
+/* header part end */
+
+/* header part start */
+/* header part end */
+
+/* header part start */
+/* header part end */
+
+/* header part start */
+/* header part end */
+
+/* header part start */
+/* header part end */
+
+/* header part start */
+/* header part end */
+
+/* header part start */
+/* header part end */
+
