@@ -207,8 +207,58 @@ ol{
 }
 /* service part end */
 
-/*  part start */
-/*  part end */
+/* about part start */
+#aboutPart{
+    padding-top: 146px;
+    padding-bottom: 146px;
+    background: #121212;
+}
+.aboutHead{
+    text-align: center;
+}
+.aboutHead h3{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #FEFEFE;
+}
+.aboutHead p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 160%;
+    color: #707070;
+    padding-top: 15px;
+}
+.aboutImg img{
+    margin-top: 40px ;
+}
+.aboutText p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 190%;
+    color: #959595;
+    padding-top: 150px;
+}
+.aboutBtn{
+    margin-top: 50px;
+}
+.aboutBtn a{
+    padding: 10px 40px;
+    color: white;
+    border: 2px solid #FD6F00;
+    background: #FD6F00;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 3%;
+}
+.aboutBtn a:hover{
+    color: #959595;
+    background: transparent;
+    border: 2px solid #959595;
+    transition: .5s;
+}
+/* about part end */
 
 /* header part start */
 /* header part end */
