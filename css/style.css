@@ -162,7 +162,13 @@ ol{
 .bannerImg img{
     position: absolute;
     top: -122px;
-    left: 50px
+    left: 50px;
+    transition: 0.4s;
+    filter: grayscale(100%);
+}
+.bannerImg img:hover{
+    transform: scale(1.05);
+  filter: grayscale(0%);
 }
 /* banner part end */
 
@@ -257,6 +263,14 @@ ol{
     background: transparent;
     border: 2px solid #959595;
     transition: .5s;
+}
+.aboutImg{
+    transition: 0.4s;
+    filter: grayscale(100%);
+}
+.aboutImg:hover{
+    transform: scale(1.05);
+  filter: grayscale(0%);
 }
 /* about part end */
 
